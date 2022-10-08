@@ -41,6 +41,7 @@ app.register((app, options, done) => {
   app.register(routes.transaction);
   app.register(routes.getBalance);
   app.register(routes.getHistory);
+  app.register(routes.getUsers);
   done();
 }, {prefix: '/v0'});
 
